@@ -1,0 +1,5 @@
+.idea/
+venv/
+.env
+todolist/devsettings.py
+db.sqlite3
