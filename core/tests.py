@@ -12,4 +12,4 @@ class TestIndexPage(TestCase):
 
     def test_word_django_is_in_title(self):
         self.browser.get('http://localhost:8000')
-        assert 'Django' in self.browser.title
+        self.assertIn('Django', self.browser.title)
